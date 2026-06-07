@@ -1,0 +1,42 @@
+{
+  "name": "joshd3v",
+  "owner": {
+    "name": "Josh Hubbard",
+    "email": "josh@joshuahubbard.dev"
+  },
+  "description": "Josh Hubbard's Claude Code plugin catalog: code review delegation, AI detection, text humanization, and more.",
+  "plugins": [
+    {
+      "name": "codex-reviewer",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jhubbardsf/codex-review.git",
+        "path": "plugins/codex-reviewer",
+        "ref": "main"
+      },
+      "description": "Run Codex GPT-5.5 as an independent code reviewer from Claude Code.",
+      "author": { "name": "Josh Hubbard" },
+      "homepage": "https://jhubbardsf.github.io/codex-review/",
+      "repository": "https://github.com/jhubbardsf/codex-review",
+      "license": "MIT",
+      "category": "development-workflow",
+      "tags": ["codex", "review", "code-review", "gpt-5.5", "claude-code"]
+    },
+    {
+      "name": "rephrasy",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jhubbardsf/rephrasy-skills.git",
+        "path": "plugins/rephrasy",
+        "ref": "main"
+      },
+      "description": "Score text for AI detectability and humanize AI-generated text via the Rephrasy API.",
+      "author": { "name": "Josh Hubbard" },
+      "homepage": "https://jhubbardsf.github.io/rephrasy-skills/",
+      "repository": "https://github.com/jhubbardsf/rephrasy-skills",
+      "license": "MIT",
+      "category": "writing",
+      "tags": ["rephrasy", "ai-detection", "humanizer", "gptzero", "writing", "claude-code"]
+    }
+  ]
+}
