@@ -37,6 +37,22 @@
       "license": "MIT",
       "category": "writing",
       "tags": ["rephrasy", "ai-detection", "humanizer", "gptzero", "writing", "claude-code"]
+    },
+    {
+      "name": "context-budget",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/jhubbardsf/claude-context-budget.git",
+        "path": "plugins/context-budget",
+        "ref": "main"
+      },
+      "description": "Warns the model before auto-compact fires mid-task, keeps a handoff that's reloaded after every compaction, and lets the model compact itself at a clean checkpoint.",
+      "author": { "name": "Josh Hubbard" },
+      "homepage": "https://github.com/jhubbardsf/claude-context-budget",
+      "repository": "https://github.com/jhubbardsf/claude-context-budget",
+      "license": "MIT",
+      "category": "development-workflow",
+      "tags": ["compaction", "context", "hooks", "handoff", "autocompact", "claude-code"]
     }
   ]
 }
